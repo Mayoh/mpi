@@ -609,6 +609,33 @@ list-style: none;
 	color:#58595B;
 	}
 	
+.floor {background: rgba(88,89,91,.6);
+    color: #FFFFFF;
+    position: absolute;
+    right: 12px;
+    text-align: center;
+    top: 940px;
+    width: 65px;
+    height: 40px;
+    text-decoration: none;
+    border: 1px solid #58595B;
+    padding: 3px;
+	padding-left:10px;
+	box-shadow:3px 3px 4px #999999;}
+	
+.floor p {
+	color: #FFFFFF;}
+	
+.floor:hover {
+	background:rgba(230,231,232,.6);
+	border:1px solid #58595B;
+	color:#58595B;
+	box-shadow:3px 3px 4px #999999;}
+	
+.floor p:hover {
+	color:#58595B;
+	}
+	
 /*ZoomEr*/
 
 .zoomInOn,.zoomInOff,.zoomOutOn,.zoomOutOff,.closeButton{width:34px;height:34px;display:block;position:absolute;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.zoomInOn,.zoomInOff{background-image:url(../assets/zoom_in.png);top:10px;right:10px}.zoomOutOn,.zoomOutOff{background-image:url(../assets/zoom_out.png);top:52px;right:10px}.zoomInOn,.zoomOutOn{opacity:1;cursor:pointer}.zoomInOff,.zoomOutOff{opacity:.3;cursor:auto}
