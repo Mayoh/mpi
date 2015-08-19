@@ -144,36 +144,50 @@ a {
 	}
 	
 #zone-map01 {
-	width: 280px;
-    height: 120px;
-    z-index: 3000;
-    position: absolute;
-    top: 167px;
-    left: 400px;}
+	  width: 301px;
+	  height: 149px;
+	  z-index: 3000;
+	  position: absolute;
+	  top: 230px;
+	  left: 394px;
+	  background:blue;}
 	
 #zone-map02 {
-	width: 100px;
-    height: 80px;
-    z-index: 3000;
-    position: absolute;
-    top: 220px;
-    left: 50px;}
+	  width: 114px;
+	  height: 94px;
+	  z-index: 3000;
+	  position: absolute;
+	  top: 307px;
+	  left: 46px;
+	  background:blue;}
 	
 #zone-map03 {
-	 width: 90px;
-    height: 30px;
-    z-index: 3000;
-    position: absolute;
-    top: 260px;
-    left: 740px;}
+	  width: 99px;
+	  height: 48px;
+	  z-index: 3000;
+	  position: absolute;
+	  top: 331px;
+	  left: 735px;
+	  background: blue;
+}
 	
 #zone-map04 {
-	 width: 71px;
+	  width: 81px;
+	  height: 50px;
+	  z-index: 3000;
+	  position: absolute;
+	  top: 407px;
+	  left: 979px;
+	  background: blue;}
+	
+#zone-map05 {
+	 width: 530px;
     height: 50px;
     z-index: 3000;
     position: absolute;
-	top: 317px;
-	left: 980px;}
+    top: 432px;
+    left: 281px;
+    background: blue;}
 	
 /*pantalla inicio*/
 
@@ -594,7 +608,8 @@ list-style: none;
     text-decoration: none;
     border: 1px solid #58595B;
     padding: 3px;
-	box-shadow:3px 3px 4px #999999;}
+	box-shadow:3px 3px 4px #999999;
+	z-index:2000;}
 	
 #seeker-1 p {
 	color: #FFFFFF;}
@@ -621,7 +636,8 @@ list-style: none;
     border: 1px solid #58595B;
     padding: 3px;
 	padding-left:10px;
-	box-shadow:3px 3px 4px #999999;}
+	box-shadow:3px 3px 4px #999999;
+	z-index:2000;}
 	
 .floor p {
 	color: #FFFFFF;}
