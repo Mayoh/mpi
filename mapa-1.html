@@ -20,6 +20,11 @@
 <script src="js/modernizr.min.js" type="text/javascript"></script>
 <script src="js/TweenMax.min.js" type="text/javascript"></script>
 <script src="js/jquery.pinchzoomer.min.js" type="text/javascript"></script> 
+<style type="text/css">
+.cierre {
+	width: 100%; height:100%; position: absolute;	
+}
+</style>
 </head>
 
 <body>
@@ -31,8 +36,9 @@
 <a href="#openModal21"><div id="zone-map04"></div></a>
 </div>
 
-<section id="mapa2">
+<section id="mapa2" style="height:100%;">
 <img src="imgs/mapa1.svg" data-elem="pinchzoomer" data-options="zoomStep:0.1" data-control-options="" data-zoomin-on="" data-zoomin-off="" data-zoomout-on="" data-zoomout-off="" /> 
+<p>&nbsp;</p>
 </section>
 
 <section id="mapa3">
@@ -52,7 +58,7 @@
 </section>
 
 
-<div id="openModal18" class="modalDialog4">
+<a href="#close" class="cierre"><div id="openModal18" class="modalDialog4">
 	<div>
 		<a href="#mapa6" target="_self" title="Mostrar ruta" class="close5" style="line-height:113%;">MOSTRAR RUTA</a>
 		
@@ -70,9 +76,9 @@
             <img class="posicion" src="imgs/banner_liverpool02.jpg"/>
             </div>
 	</div>
-</div>
+</div></a>
 
-<div id="openModal19" class="modalDialog4">
+<a href="#close" class="cierre"><div id="openModal19" class="modalDialog4">
 	<div>
 		<a href="#mapa3" title="Mostrar ruta" class="close5" style="line-height:113%;">MOSTRAR RUTA</a>
 		
@@ -90,9 +96,9 @@
             <img class="posicion" src="imgs/banner_zara02.jpg"/>
             </div>
 	</div>
-</div>
+</div></a>
 
-<div id="openModal20" class="modalDialog4">
+<a href="#close" class="cierre"><div id="openModal20" class="modalDialog4">
 	<div>
 		<a href="#mapa4" title="Mostrar ruta" class="close5" style="line-height:113%;">MOSTRAR RUTA</a>
 		
@@ -111,9 +117,9 @@ Comida: Alitas, hamburguesas, cortes y las famosas costillitas.</p>
             <img class="posicion" src="imgs/banner_chilis02.jpg"/>
             </div>
 	</div>
-</div>
+</div></a>
 
-<div id="openModal21" class="modalDialog4" data-overflowcontent="true" data-ondocumentclick-close="true" data-ondocumentclick-close-prevent="">
+<a href="#close" class="cierre"><div id="openModal21" class="modalDialog4" data-overflowcontent="true" data-ondocumentclick-close="true" data-ondocumentclick-close-prevent="">
 	<div>
 		<a href="#mapa5" title="Mostrar ruta" class="close5" style="line-height:113%;">MOSTRAR RUTA</a>
 		
@@ -131,7 +137,7 @@ Comida: Alitas, hamburguesas, cortes y las famosas costillitas.</p>
             <img class="posicion" src="imgs/banner_bancomer02.jpg"/>
             </div>
 	</div>
-</div>
+</div></a>
 
 
 </body>
